@@ -1,0 +1,23 @@
+.a{
+	width:25px;
+	height:25px;
+	cursor:pointer;
+}
+.a .checkmark{
+	width:100%;
+	height:100%;
+	border: 1px solid #ffffff;
+	display:inline-block;
+	border-radius:0px;
+	background:#222
+	url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/white_check.svg/1200px-white-check.svg.png) center/120% no-repeat;
+	transition:background-size 0.3s ease;
+}
+
+.a input:checked + .checkmark{
+	background-size:60%;
+transition:background-size 0.3s ease;
+}
+.a input{
+	display:none;
+}
